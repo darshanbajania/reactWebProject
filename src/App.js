@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 
 import AiTool from './projectFiles/chatGPT/AiTool';
 
