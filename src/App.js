@@ -1,7 +1,7 @@
 
 
 import AiTool from './projectFiles/chatGPT/AiTool';
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+// import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 
 function App() {
