@@ -66,6 +66,7 @@ h1{
 
 .statistics .info-card{
     text-align: center;
+      color: #252020;
 }
 
 .statistics .info-card p{
@@ -81,7 +82,57 @@ h1{
 }
 
 footer .disclaimer p{
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     color: #B7B7B7;
+}
+
+
+@media screen and (max-width:480px) {
+    .outerContainer{
+        padding: 0.5em;
+    }
+    .poweredByHeading p{
+    font-size: 11px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    color: #252020;
+    font-size: 30px;
+}
+.search-box{
+   
+    display: flex;
+    box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.15);
+    padding:0.5em 0.5em;
+}
+.search-box input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+.search-box button svg{
+    width: 28px;
+    
+}
+
+.answer p{
+    font-size: 16px;
+    color: #252020;
+    padding-top: 1em;
+}
+
+.statistics .info-card p{
+    font-size: 24px;
+
+}
+.statistics .info-card h3{
+
+    font-size: 12px;
+   
+}
+
+
 }
