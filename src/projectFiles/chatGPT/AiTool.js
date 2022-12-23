@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './AiTool.css'
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
+
 
 function AiTool() {
     // const { executeRecaptcha } = useGoogleReCaptcha();
@@ -9,6 +9,7 @@ function AiTool() {
     // const [recaptc, setrecaptc] = useState(second)
     const handleQuery = (e) => {
         setQueryText(e.target.value)
+        console.log(queryText)
 
     }
 
