@@ -33,6 +33,9 @@ h1{
     font-size: 20px;
 }
 
+.search-box input:focus{
+    outline: none;
+}
 .search-box button{
     background: none;
     border:none;
@@ -49,6 +52,17 @@ h1{
 .answer p{
     font-size: 20px;
     color: #252020;
+    padding-top: 0em;
+}
+
+.question span{
+    font-weight: 600;
+}
+
+
+.question p{
+    font-size: 16px;
+    color: #413f3f;
     padding-top: 1em;
 }
 
