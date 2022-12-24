@@ -162,7 +162,9 @@ function AiTool() {
 
     const getSolution = async () => {
         try {
-            await fetch('http://localhost:3001/solve/', {
+            await fetch('https://tame-pink-crocodile-shoe.cyclic.app/solve/', {
+
+                // await fetch('http://localhost:3001/solve/', {
 
                 method: 'POST',
                 headers: {
