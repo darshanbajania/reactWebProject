@@ -88,7 +88,6 @@ h1{
     font-size: 30px;
     font-weight: 500;
 }
-
 .statistics .info-card h3{
     margin: 0;
     font-size: 14px;
@@ -101,7 +100,13 @@ footer .disclaimer p{
     color: #B7B7B7;
 }
 
+.spinner{
+    min-height: 40px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
 
+}
 @media screen and (max-width:480px) {
     .outerContainer{
         padding: 0.5em;
@@ -134,6 +139,8 @@ h1{
     width: 28px;
     
 }
+
+
 
 .answer p{
     font-size: 16px;

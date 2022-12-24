@@ -280,12 +280,15 @@ function AiTool() {
 
                             {
                                 loading ?
-                                    <SyncLoader
-                                        size={10}
-                                        color={'#252020'}
-                                        aria-label="Loading Spinner"
-                                    // loading={false}
-                                    /> :
+                                    <div className='spinner'>
+                                        <SyncLoader
+                                            size={8}
+                                            color={'#252020'}
+                                            aria-label="Loading Spinner"
+                                        // loading={false}
+                                        />
+                                    </div>
+                                    :
 
                                     <button type='submit'>
                                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
